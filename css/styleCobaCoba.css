@@ -1,0 +1,29 @@
+@keyframes resize {
+  0% { padding: 0; }
+  50% { padding: 0 10px; }
+  100% { padding: 0 30px; }
+}
+
+@keyframes rotation {
+  from {
+    transform: skew(0deg)
+  }
+  to {
+    transform: skew(359deg)
+  }
+}
+
+.cobaCss, .turunanCobaCss {
+  color:red;
+  text-align: center;
+  transition: font-size 3s, color 10s;
+  animation: rotation 1s 
+
+}
+
+
+
+.cobaCss:hover {
+  transform: scale(1,2) skew(45deg);
+}
+

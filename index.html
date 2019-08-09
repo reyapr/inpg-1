@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hacktiv8</title>
+  </head>
+  <body>
+    <!-- <form onsubmit="return false"> -->
+      <fieldset>
+        <p>
+          <label class="label"></label>
+          <input>
+        </p>
+        <p>
+          <label type="text" class="label">Label-2</label>
+          <input id="myInput">
+        </p>
+        <p>
+          <input list="datalistId" name="data" id="inputDatalist">
+          <input name="data" id="removeData">
+          <datalist id="datalistId">
+            <select>
+              <option value="apel"> deskripsi apple itu warnanya merah dan hijau</option>
+              <option value="apalah2"> pilihan 2</option> 
+              <option value="apalah lagi dan setelahnya"> pilihan 2 setelahnya</option>
+              <option value="dst"> pilihan 3</option>
+            </select>
+          </datalist>
+          <datalist id="salahNama">
+              <select>
+                  <option value="salah"> salah2 1</option> 
+                  <option value="salah22"> salah2 2</option>
+                  <option value="salah22 dan setelahnya"> salah2 2 setelahnya</option>
+                  <option value="salah23"> salah2 3</option>
+                </select>
+          </datalist>
+          <input type="radio"> 
+          <input type="submit" value="Submit" onclick="test()">
+          <input type="submit" value="Remove" onclick="remove()">
+        </p>
+      </fieldset>
+      <div id="list-dari-opt">
+        <li>apel</li>
+      </div>
+    <!-- </form> -->
+
+
+
+    <div id="list">
+
+    </div>
+    <script src="addRemove.js">
+    </script>
+
+  </body>
+ 
+</html>
+

@@ -1,0 +1,18 @@
+@import "styleCobaCoba.css";
+
+h1 {
+  color:aqua
+}
+
+.block {
+  color: saddlebrown;
+  margin: 30px 100px;
+  border: solid;
+  border-width: 3px;
+  margin-left: 200px
+}
+
+.greenColor {
+  color: green;
+  font-weight: bold;
+}

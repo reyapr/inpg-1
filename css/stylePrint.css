@@ -1,0 +1,14 @@
+h1 {
+  color:aqua
+}
+.cobaCss {
+  color:black;
+  text-align: center
+}
+.block {
+  color: saddlebrown;
+  margin: 30px 100px;
+  border: solid;
+  border-width: 3px;
+  margin-left: 200px
+}
